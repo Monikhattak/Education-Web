@@ -1,0 +1,46 @@
+.Code {
+  margin: 5px;
+  padding-right: 10px;
+  font-size: 30px;
+  color: rgba(230, 215, 18, 0.986);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.Search {
+  display: flex;
+  margin-top: 16px;
+}
+
+.Search input {
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+}
+.Search button {
+  height: 40px;
+  cursor: pointer;
+  width: 40px;
+  border-radius: 5px;
+}
+
+.Signup {
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  margin: 8px;
+
+  background-color: rgb(54, 152, 190);
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  margin: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.link:hover {
+  color: antiquewhite;
+}

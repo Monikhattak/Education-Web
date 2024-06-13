@@ -1,0 +1,55 @@
+.Category {
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  padding: 30px;
+}
+.container {
+  display: grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px;
+  padding: 20px;
+}
+section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h3 {
+  font-size: 10px;
+}
+
+.card {
+  border: 1px solid #ddd;
+
+  overflow: hidden;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+.card img {
+  height: 140px;
+  width: 50vh;
+}
+.btn6 {
+  margin: 10px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #192672;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #0c3a58;
+}
+.categorys {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

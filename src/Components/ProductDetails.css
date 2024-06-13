@@ -1,0 +1,33 @@
+/* ProductDetails.css */
+.product-details-container {
+  margin: 10px;
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  height: 80vh;
+}
+
+.product-image {
+  height: 500px;
+  margin-bottom: 20px;
+  width: 70vh;
+  align-items: center;
+}
+.buy-button {
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.details {
+  width: 100%;
+}
+
+.details p span {
+  font-weight: bold;
+  text-wrap: nowrap;
+}

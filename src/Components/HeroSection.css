@@ -1,0 +1,43 @@
+header {
+  background-image: url(../assets/HeroSection.jpg);
+  background-size: cover;
+  align-items: center;
+  background-position: center;
+  height: 70vh;
+  width: 100%;
+  position: relative;
+  z-index: -10;
+}
+header::after {
+  position: absolute;
+  content: "";
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+.HeroSection {
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  height: calc(100vh - 60px);
+}
+.HeroSection p {
+  padding: 40px;
+  font-size: 1rem;
+}
+.HeroSection button {
+  margin: 10px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #3498db;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #3498db;
+}
